@@ -113,13 +113,13 @@ Every feature uses the same set of places. For feature **FXX** with a resource c
 
 ### Feature by feature
 
-No feature is built yet. These names are the plan and may be adjusted when each feature is designed.
+F02 and F03 are built. The other names are the plan and may be adjusted when each feature is designed.
 
 | Feature | Owner | Controllers | Models → tables | Views folder | Tests |
 |---|---|---|---|---|---|
 | **F01** Onboarding page | Safwan | `OnboardingController` | `OnboardingItem` → `onboarding_items`, progress in `onboarding_item_user` | `onboarding/` | `OnboardingTest` |
-| **F02** Team formation & invites | Arnab | `TeamController`, `TeamMemberController`, `TeamInvitationController` | `Team` → `teams`, `TeamMember` → `team_members` (with team role), `TeamInvitation` → `team_invitations` | `teams/`, `invitations/` | `TeamManagementTest`, `TeamMemberTest`, `TeamInvitationTest` |
-| **F03** Project management | Sadman | `ProjectController` | `Project` → `projects` (`team_id`, `lead_id`) | `projects/` | `ProjectManagementTest` |
+| **F02** Team formation & invites ✅ | Arnab | `TeamController`, `TeamMemberController`, `TeamInvitationController` | `Team` → `teams`, `TeamMember` → `team_members` (with team role), `TeamInvitation` → `team_invitations` | `teams/`, `invitations/` | `TeamManagementTest`, `TeamMemberTest`, `TeamInvitationTest` |
+| **F03** Project management ✅ | Sadman | `ProjectController` | `Project` → `projects` (`team_id`, `lead_id`) | `projects/` | `ProjectManagementTest` |
 | **F04** Manager dashboard & admin analytics | Sadman | `ManagerDashboardController`, `AdminAnalyticsController` | no new tables; query methods added to `Project`, `Task`, `User`, `CheckIn` | `manager/`, `admin/` | `ManagerDashboardTest`, `AdminAnalyticsTest` |
 | **F05** Personal dashboard & task board | Safwan | `DashboardController` (exists), `TaskController`, `TaskBoardController` | `Task` → `tasks` | `dashboard.blade.php`, `tasks/` | `TaskBoardTest`, `PersonalDashboardTest` |
 | **F06** Chat, media & polls | Arnab | `MessageController`, `PollController` | `Message` → `messages`, `MessageAttachment` → `message_attachments`, `Poll` / `PollOption` / `PollVote` | `chat/`, `polls/` | `ChatTest`, `PollTest` |

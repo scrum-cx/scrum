@@ -18,6 +18,8 @@ class LayoutComposer
     /** Links shown in the top navigation: label => [route name, route pattern for "active"]. */
     private const NAV_LINKS = [
         'Dashboard' => ['dashboard', 'dashboard'],
+        'Teams' => ['teams.index', 'teams.*'],
+        'Projects' => ['projects.index', 'projects.*'],
     ];
 
     public function __construct(private Request $request) {}

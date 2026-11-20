@@ -12,8 +12,8 @@ CSE470 Software Engineering · Fall 2026 · Section 6 · Group 7
 | # | Feature | Owner | Status |
 |---|---|---|---|
 | F01 | Onboarding page: checklist, welcome notes, pending tasks | Safwan Noor | |
-| F02 | Team formation and invites: teams with roles (owner/manager/member), invite links | Arnab Sen | |
-| F03 | Project management: projects under a single team, several managed at once | Sadman Hasan | |
+| F02 | Team formation and invites: teams with roles (owner/manager/member), invite links | Arnab Sen | Done (Sprint 1) |
+| F03 | Project management: projects under a single team, several managed at once | Sadman Hasan | Done (Sprint 1) |
 | F04 | Manager dashboard and admin analytics: team health, inactive-member alerts, workload trends | Sadman Hasan | |
 | F05 | Employee personal dashboard and To Do / Doing / Done board | Safwan Noor | |
 | F06 | Communication: messaging, media, polls | Arnab Sen | |
